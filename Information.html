@@ -19,10 +19,35 @@
 
         h1 {
             font-size: 3em;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .instagram-icon {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.2s ease;
+        }
+
+        .instagram-icon:hover {
+            transform: scale(1.1);
+        }
+
+        a {
+            display: inline-block;
         }
     </style>
 </head>
 <body>
-<h1>Welcome to Portraitclikx</h1>
+
+<h1>
+    Welcome to Portraitclikx
+    <a href="https://www.instagram.com/potraitclikx/" target="_blank" title="Follow us on Instagram">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+             alt="Instagram" class="instagram-icon">
+    </a>
+</h1>
+
 </body>
 </html>
